@@ -1,2 +1,2 @@
-# Data-Engineering-Capstone-Project
-Udacity Data Engineering Nanodegree Capstone Project
+# Anime Recommendation System
+Kaggle Dataset : Anime Recommendation Database 2020
