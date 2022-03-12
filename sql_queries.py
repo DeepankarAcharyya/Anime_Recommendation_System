@@ -87,3 +87,8 @@ DC_ANIME_SCORE = """ SELECT COUNT(*) FROM anime_score;  """
 DC_ANIME_META = """ SELECT COUNT(*) FROM anime_meta;  """
 DC_ANIME_LIST = """ SELECT COUNT(*) FROM anime_list;  """
 DC_ANIME_WATCHING_STATUS = """ SELECT COUNT(*) FROM anime_watching_status; """
+
+DC_ANIME_SCORE2 = """ SELECT COUNT(*) FROM anime_score WHERE Score_10<0 OR Score_9<0 OR Score_8<0 OR Score_7<0 OR Score_6<0
+                        OR Score_5<0 OR Score_4<0 OR Score_3<0 OR Score_2<0 OR Score_1<0 ; """
+DC_ANIME_MASTER2 = """ SELECT COUNT(*) FROM anime_master WHERE Score<0 OR Score>10; """
+
